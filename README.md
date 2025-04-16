@@ -1,0 +1,68 @@
+# Project
+# Projet : Prix de l'immobilier a Dakar
+
+# ---------------------------     OBJECTIF    ------------------->
+
+L'objectif est de développer un modèle prédictif pour estimer le prix au mètre carré des logements à Dakar en fonction :
+
+- des données géographiques (arrondissement; proximité ville)
+
+- des caractéristiques du logement (surface, nombre de pièces, age de l'appartement)
+
+- du contexte économique(taux d'interet)
+
+
+# ----------------------------       EQUIPE     ------------------->
+
+------------------------------------------------------------------------------------->
+|        NOM                   |        Role            |     Tache a faire
+-------------------------------------------------------------------------------------- 
+|  Dieynaba SOW                |      Data Engineer     | Collecte et nettoyage des donnees
+---------------------------------------------------------------------------------------
+|  Mbacké THIOUB               | Data scientist         | Préparation et modelisation predictive
+---------------------------------------------------------------------------------------
+
+# <---------------------       ETAPES     --------------------->
+
+# <-----------------     Exploration :     --------------
+
+- Collecte des donnees via Datastream (Dataset fictif)
+
+- Nettoyage : gestion des valeurs manquantes, outliers.
+
+- Analyses exploratives(EDA) : Correlation Prix/surface
+
+# <-----------------    Modelisation :     ----------------------->
+
+- Entraiement de modeles
+
+  --> Regression lineaire
+
+  --> Random forest (optimisation hyperparametres)
+
+- Evaluation
+
+  --> RMSE(Mesure de l'erreur moyenne entre les valeurs predites par le modele et les valeurs reelles)
+
+  --> R au carre (Correspondant au coefficient de determination : le R au carre mesure a quel point le modele explique la variablite d>
+
+# -----------------    Deploiement :   ------------------------->
+
+- Dashboard interactif avec Shiny
+
+# -----------------------   RESULTATS ATTENDUS  ------------------->
+
+# ----------------- Performance du modele ------------------------
+
+- RMSE < 300.000FCFA /metre carre( erreur acceptable)
+
+- R au carre > 0.85 (Bonne explication de la vaiance)
+
+---------------------------------Livrables------------------------------------>
+
+Lien vers la page GitHub Pages :
+[(https://github.com/THIOOBOO/Fiche_projet)]
+
+----------------------------------Impact-------------------------------------->
+
+Aider les 
