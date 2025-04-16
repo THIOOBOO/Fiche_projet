@@ -65,4 +65,4 @@ Lien vers la page GitHub Pages :
 
 ----------------------------------Impact-------------------------------------->
 
-Aider les 
+Aider les agents immobiliers a estimer des prix realistes
